@@ -28,7 +28,7 @@ TPx.x/
 Le fichier **`launcher.py`** affiche un petit menu pour choisir quel TP ouvrir.  
 Chaque TP s’ouvre ensuite dans **sa propre fenêtre**.
 
-👉 Lancer le menu principal :
+Lancer le menu principal :
 
 ```bash
 python launcher.py
