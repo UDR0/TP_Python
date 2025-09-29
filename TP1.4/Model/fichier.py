@@ -4,11 +4,10 @@ OPERATIONS = {
     "addition": ("+", operator.add, 0, 20),
     "soustraction": ("-", operator.sub, 0, 20),
     "multiplication": ("×", operator.mul, 0, 12),
-    "division": ("÷", operator.floordiv, 1, 12),  # division entière
+    "division": ("÷", operator.floordiv, 1, 12),
 }
 
 def generer_question(type_operation: str):
-    "Génère une question selon le type choisi et renvoie (a, b, reponse, texte)."
     symbole, fonction, bas, haut = OPERATIONS[type_operation]
     a = random.randint(bas, haut)
     b = random.randint(bas if type_operation != "division" else 1, haut)
