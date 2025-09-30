@@ -1,7 +1,7 @@
 # TP Python — MVC + Tkinter
 
 Ce projet contient plusieurs **TP de Python** organisés avec le modèle **MVC** et une interface graphique simple avec **Tkinter**.  
-Chaque TP est rangé dans son dossier (`TP1.1`, `TP1.2`, …) et un **lanceur** (`launcher.py`) permet de choisir lequel exécuter facilement.
+Chaque TP est rangé dans son dossier (`TP1.1`, `TP1.2`, …) et un **lanceur** (`main.py`) permet de choisir lequel exécuter facilement.
 
 ---
 
@@ -25,13 +25,13 @@ TPx.x/
 
 ## Le lanceur
 
-Le fichier **`launcher.py`** affiche un petit menu pour choisir quel TP ouvrir.  
+Le fichier **`main.py`** affiche un petit menu pour choisir quel TP ouvrir.  
 Chaque TP s’ouvre ensuite dans **sa propre fenêtre**.
 
 Lancer le menu principal :
 
 ```bash
-python launcher.py
+python main.py
 ```
 
 ---
